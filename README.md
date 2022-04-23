@@ -7,6 +7,8 @@ of my fullstack Web Development course at BlueEdTech in 04/2022.
 ## Stacks
 The tools used in this project are:
 
+<section style:"display:flex;flex-wrap:wrap;">
+
 <img src="https://img.icons8.com/color/144/000000/javascript--v1.png"/>
 
 <img src="https://img.icons8.com/color/144/000000/html-5--v2.png"/>
