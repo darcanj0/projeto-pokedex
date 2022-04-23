@@ -21,3 +21,4 @@ The tools used in this project are:
 <a href = "https://linkedin.com/in/darcanjoo/">My Linkedin</a>
 <br>
 <a href = "https://github.com/darcanj0">My Github</a>
+<p>My email: daniel.thomas.aarcanjo@gmail.com</p>
