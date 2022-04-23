@@ -19,4 +19,5 @@ The tools used in this project are:
 
 ## Contact
 <a href = "https://linkedin.com/in/darcanjoo/">My Linkedin</a>
+<br>
 <a href = "https://github.com/darcanj0">My Github</a>
