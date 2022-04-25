@@ -1,0 +1,28 @@
+{
+  "name": "projeto-pokedex",
+  "version": "1.0.0",
+  "description": "projeto de uma pokedex em modelo MVC",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js,html,css,ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darcanj0/projeto-pokedex.git"
+  },
+  "author": "Daniel Arcanjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darcanj0/projeto-pokedex/issues"
+  },
+  "homepage": "https://github.com/darcanj0/projeto-pokedex#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleDetails.css">
+    <title>PokéDex | Details</title>
+</head>
+<body>
+    <%- include("./partials/header") %>
+    <main>
+        <div id="pokemonImage">
+            <div id="header">
+                <h2><%= pokemon.name %> </h2>
+            </div>
+            <div id="main">
+                <figure>
+                    <img src= <%= pokemon.image %>  alt="Your browser couldn't load the image">
+                </figure>
+            </div>
+        </div>
+
+        <div id="pokemonDetails">
+            <h3>Number</h3>
+            <p><%= pokemon.number %> </p>
+            <h3>Height</h3>
+            <p><%= pokemon.height %> m</p>
+            <h3>Weight</h3>
+            <p><%= pokemon.weight %> Kg </p>
+            <h3>Type</h3>
+            <% for( let index = 0; index < pokemon.type.length; index++ ) { %>
+                <p><%= pokemon.type[index] %> </p>
+            <% } %>
+            <h3>Category</h3>
+            <p><%= pokemon.category %> </p>
+            <h3>Ability</h3>
+            <% for( let index = 0; index < pokemon.abilities.length; index++ ) { %>
+                <p><%=pokemon.abilities[index]%></p>
+            <% } %>
+            <h3>Description</h3>
+            <p><%= pokemon.desc %> </p>
+        </div>
+    </main>
+    <%- include("./partials/footer") %>  
+</body>
+</html>
