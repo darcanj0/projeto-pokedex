@@ -1,8 +1,14 @@
 # Pokedex project
 
+## Link
+https://darcanj0-pokedex.onrender.com
+
 ## Description
 This project has educational purposes and it was developed in the second module
 of my fullstack Web Development course at BlueEdTech in 04/2022.
+The objective was to create a interactive pokemons catalog and add routes for: seeing the pokemon details,
+adding a new pokemon, showing all pokemons.
+The pokemons data in this project were not saved in a real database, they are just a list of objects in js.
 
 ## Stacks
 The tools used in this project are:
